@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_another">another</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+</resources>

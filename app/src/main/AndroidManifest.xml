@@ -17,6 +17,17 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".AnotherActivity">
+            <intent-filter>
+                <action android:name="anotherActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -31,5 +31,35 @@
             android:id="@+id/ButtonCancel"
             android:layout_below="@+id/ButtonOK"
             android:layout_alignParentStart="@+id/ButtonOK"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_test"
+            android:id="@+id/ButtonTest" />
     </LinearLayout>
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eText"
+        android:inputType="text"
+        android:layout_weight="0.06" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonStartService"
+            android:text="@string/button_start"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonStopService"
+            android:text="@string/button_stop"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonAnotherActivity"
+        android:text="@string/button_another"/>
 </LinearLayout>

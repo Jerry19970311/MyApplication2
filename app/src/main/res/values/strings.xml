@@ -4,4 +4,13 @@
     <string name="menu_another">another</string>
     <string name="button_ok">OK</string>
     <string name="button_cancel">Cancel</string>
+    <string name="button_test">Test</string>
+    <string name="button_login">Login</string>
+    <string name="button_start">Start Service</string>
+    <string name="button_stop">Stop Service</string>
+    <string name="button_another">Another Activity</string>
+    <string name="button_back">Back</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
